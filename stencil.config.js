@@ -1,17 +1,17 @@
 exports.config = {
-  namespace: 'mycomponent',
-  outputTargets:[
-    { 
-      type: 'dist' 
+  namespace: 'my-stencil-header',
+  outputTargets: [
+    {
+      type: 'dist',
     },
-    { 
+    {
       type: 'www',
-      serviceWorker: false
-    }
-  ]
+      serviceWorker: false,
+    },
+  ],
 };
 
 exports.devServer = {
   root: 'www',
-  watchGlob: '**/**'
-}
+  watchGlob: '**/**',
+};
